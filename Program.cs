@@ -12,6 +12,7 @@ builder.Services.AddSwaggerGen();
 // Servicios Disponibles
 builder.Services.AddScoped<UsuarioService>();
 builder.Services.AddScoped<LoginService>();
+builder.Services.AddScoped<AnimalService>();
 
 var app = builder.Build();
 
